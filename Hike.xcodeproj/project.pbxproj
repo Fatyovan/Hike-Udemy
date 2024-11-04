@@ -14,6 +14,8 @@
 		D93C66E42C3560B5003EE0F2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C66E32C3560B5003EE0F2 /* CardView.swift */; };
 		D93C66E72C3565BC003EE0F2 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C66E62C3565BC003EE0F2 /* CustomBackgroundView.swift */; };
 		D93C66EC2C356A8B003EE0F2 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C66EB2C356A8B003EE0F2 /* ColorExtension.swift */; };
+		D95862212CD95CB300D342E1 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95862202CD95CA900D342E1 /* CustomButtonView.swift */; };
+		D95862232CD961EF00D342E1 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95862222CD961E000D342E1 /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		D93C66E32C3560B5003EE0F2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		D93C66E62C3565BC003EE0F2 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		D93C66EB2C356A8B003EE0F2 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		D95862202CD95CA900D342E1 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		D95862222CD961E000D342E1 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		D93C66E52C35619F003EE0F2 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				D95862202CD95CA900D342E1 /* CustomButtonView.swift */,
 				D93C66E32C3560B5003EE0F2 /* CardView.swift */,
 				D93C66E62C3565BC003EE0F2 /* CustomBackgroundView.swift */,
 			);
@@ -87,6 +92,7 @@
 		D93C66E82C356A5F003EE0F2 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				D95862222CD961E000D342E1 /* GradientButtonStyle.swift */,
 				D93C66EB2C356A8B003EE0F2 /* ColorExtension.swift */,
 			);
 			path = Utility;
@@ -165,6 +171,8 @@
 				D93C66D82C355F47003EE0F2 /* ContentView.swift in Sources */,
 				D93C66E42C3560B5003EE0F2 /* CardView.swift in Sources */,
 				D93C66D62C355F47003EE0F2 /* HikeApp.swift in Sources */,
+				D95862212CD95CB300D342E1 /* CustomButtonView.swift in Sources */,
+				D95862232CD961EF00D342E1 /* GradientButtonStyle.swift in Sources */,
 				D93C66E72C3565BC003EE0F2 /* CustomBackgroundView.swift in Sources */,
 				D93C66EC2C356A8B003EE0F2 /* ColorExtension.swift in Sources */,
 			);
